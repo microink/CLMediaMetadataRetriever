@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         private const val REQUEST_CODE_CHOOSE_FILE = 1011
     }
 
-    private var retriever: CLMediaMetadataRetriever = CLMediaMetadataRetriever()
+    private val retriever: CLMediaMetadataRetriever = CLMediaMetadataRetriever()
 
     private lateinit var mIV: ImageView
     private lateinit var mBtn: Button
